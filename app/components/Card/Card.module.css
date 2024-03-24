@@ -1,0 +1,44 @@
+.cardInnterContainer h4{
+font-size: 17px;
+font-weight: 500;
+margin: 14px 0px;
+}
+.cardInnterContainer{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+}
+.cardTitle{
+    color:#525965;
+    font-size: 12px;
+    font-weight: 400;
+}
+.cardTitleContent{
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.cardContent{
+    padding: 12px 5px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: #F7F7F8;
+    margin: 10px 0px;
+}
+
+@media (max-width: 320px) {
+    .cardInnterContainer h4{
+        font-size: 15px;
+        font-weight: 500;
+        margin: 14px 0px;
+        }
+        .cardContent{
+            padding: 12px 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+            background: #F7F7F8;
+            margin: 10px 0px;
+        }
+}

@@ -1,0 +1,55 @@
+
+.sportsSectionContainer h3 {
+    position: relative; 
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+  
+.sportsSectionContainer h3::after {
+    content: ""; 
+    display: block; 
+    width: 70px; 
+    height: 2px; 
+    background-color:#738FFF;
+    position: absolute; 
+    bottom: -2px; 
+    left: 0; 
+  }
+
+  .cardContainer{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 8px;
+  }
+
+.cardMainCOntainer{
+    display: flex;
+    gap: 14px;
+}
+.button{
+    background: #2C9CF0 ;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 71px;
+}
+@media (max-width: 320px) {
+    .cardContainer{
+        display: block;
+        grid-template-columns: 80% 20%;
+        gap: 8px;
+      }
+      .cardMainCOntainer{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+}

@@ -1,0 +1,16 @@
+.darkMode{
+    
+        padding: 45px 85px;
+        background: #292B32;
+        color: white !important;
+    
+}
+
+
+@media (max-width: 320px) {
+    .darkMode{
+        padding: 20px 15px;
+        background: #292B32;
+        color: white !important;
+      }
+}

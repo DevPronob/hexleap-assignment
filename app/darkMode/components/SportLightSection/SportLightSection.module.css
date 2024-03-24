@@ -1,0 +1,56 @@
+.sportLightContainer{
+    margin-top: 90px;
+    color: white;
+}
+.textContainer{
+    
+}
+.textContainer h2{
+    font-size: 50px;
+    font-weight: 700;
+   
+}
+.textContainer p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 2px;
+    
+    
+
+}
+.collectionHeader{
+    text-align: center;
+}
+.collectionText{
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 50px;
+}
+.innerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.collectionCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.arrowImg{
+    padding: 14px;
+    border: 1px solid #2C9CF0;
+}
+
+@media (max-width: 320px) {
+    .textContainer h2{
+        font-size: 30px;
+      }
+      .collectionCardContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+}
